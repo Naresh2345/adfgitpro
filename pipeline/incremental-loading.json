@@ -110,7 +110,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"storedProcedureName": "[dbo].[usp_update2]"
+					"storedProcedureName": "[dbo].[usp_update4]"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureSqlDatabase1",

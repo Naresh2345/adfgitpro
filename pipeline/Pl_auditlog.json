@@ -81,7 +81,7 @@
 					"storedProcedureParameters": {
 						"Duration": {
 							"value": {
-								"value": "@activity('Copy data1').output.copyDuration",
+								"value": "@activity('Copy data1').output.copyduration",
 								"type": "Expression"
 							},
 							"type": "String"
