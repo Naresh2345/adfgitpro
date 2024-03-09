@@ -1,0 +1,37 @@
+{
+	"name": "DS_DelimitedText",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "bangemoloyee.txt",
+				"folderPath": "folder",
+				"container": "aaa"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "   eno",
+				"type": "String"
+			},
+			{
+				"name": " ename",
+				"type": "String"
+			},
+			{
+				"name": " salary",
+				"type": "String"
+			}
+		]
+	}
+}
