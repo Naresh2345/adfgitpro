@@ -10,11 +10,11 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "incremental.txt",
-				"folderPath": "folder",
-				"container": "aaa"
+				"fileName": "testuzip",
+				"container": "output"
 			},
 			"columnDelimiter": ",",
+			"compressionCodec": "deflate",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
