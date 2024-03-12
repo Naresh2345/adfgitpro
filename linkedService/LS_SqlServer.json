@@ -1,0 +1,22 @@
+{
+	"name": "LS_SqlServer",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Data Source=Naresh;Initial Catalog=AdventureWorks2019;User ID=azureadf",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "Ls_AzureKeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "password"
+			}
+		},
+		"connectVia": {
+			"referenceName": "shirintegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
