@@ -1,0 +1,10 @@
+{
+	"name": "Ls_AzureKeyVault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://savesqlname.vault.azure.net/"
+		}
+	}
+}
