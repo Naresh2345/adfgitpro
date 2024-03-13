@@ -415,7 +415,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobStorageLocation",
-						"container": "output"
+						"container": "incrementalcontainer"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
